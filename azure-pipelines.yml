@@ -23,5 +23,5 @@ steps:
   inputs:
     SourceFolder: './build'
     Contents: '**'
-    TargetFolder: 'C:/build-belas-artes'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/build'
     OverWrite: true
