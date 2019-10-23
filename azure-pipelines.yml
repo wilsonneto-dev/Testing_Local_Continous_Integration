@@ -21,7 +21,7 @@ steps:
   displayName: 'npm install and build'
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '/build'
+    SourceFolder: './build'
     Contents: '**'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/build-belas-artes'
     OverWrite: true
